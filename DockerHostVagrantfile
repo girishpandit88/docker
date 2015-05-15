@@ -25,4 +25,5 @@ Vagrant.configure("2") do |config|
   config.vm.provider :virtualbox do |vb|
       vb.name = "dockerhost"
   end
+  config.vm.synced_folder "/", "/vagrant"
 end

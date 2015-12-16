@@ -1,7 +1,7 @@
 Docker dev-in-the-box
 
 ====================================================
-This project contains my dev-in-a-box environment which has now been completely dockerized. I'll add more containers to this project when I get time. 
+On boarding of new engineers to the team is often the most laborious job. Providing them right set of tools to start with can go a long way into creating good impression of the team on the new engineer. This project was initiated with that view. Currently the dev-in-box brings up memcached, DynamoDb and tomcat all in a single vagrant box with port forwarding setup to host machine.
 
 Currently I've dockerized 3 containers - 
 * AWS DynamoDB local

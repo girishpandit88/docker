@@ -1,0 +1,13 @@
+tomcat:
+  build: tomcat
+  ports:
+    - "8000:8000"
+    - "8080:8080"
+memcached:
+  build: memcached
+  ports:
+    - "11211:11211"
+ddb:
+  build: ddb
+  ports:
+    - "7777:7777"

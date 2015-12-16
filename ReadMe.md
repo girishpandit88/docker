@@ -15,11 +15,10 @@ These containers are using docker-compose vagrant plugin to run as lxc-docker co
 ```bash vagrant plugin install vagrant-docker-compose```
 
 To get started simply execute - 
-```bash 
-vagrant up```
+```bash vagrant up```
 
 To inspect docker containers - 
-```bash 
+```bash
 vagrant ssh
 docker ps
 ```
